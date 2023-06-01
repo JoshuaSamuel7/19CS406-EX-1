@@ -1,14 +1,14 @@
 # 19CS406-EX-1 STUDY OF SOCKET PROGRAMMING WITH CLIENT-SERVER MODEL
 
-# DATE :06\03\2023
+## DATE :06\03\2023
 
-# AIM : 
+## AIM : 
 To implement socket programming date and time display from client to
 server using TCPSockets
 
-# ALGORITHM :
+## ALGORITHM :
 ```
-Server:
+ Server:
 
 1. Create a server socket and bind it to port.
 2. Listen for new connection and when a connection arrives, accept it.
@@ -49,7 +49,7 @@ while True:
  except KeyError:
  c.send("Not Found".encode()) 
 ```
-# SERVER:
+## SERVER:
 ```
 import socket
 s=socket.socket()
@@ -59,15 +59,15 @@ print(s.recv(1024).decode())
 s.send("acknowledgement recived from the server".encode())
 ```
 
-# OUTPUT:
-# CLIENT OUTPUT:
+## OUTPUT:
+## CLIENT OUTPUT:
 ![1a](https://github.com/JoshuaSamuel7/19CS406-EX-1/assets/118343296/9b7c7180-d7be-4542-bcc4-2aebcc8cd199)
 
-# SERVER OUTPUT:
+## SERVER OUTPUT:
 
 ![1b](https://github.com/JoshuaSamuel7/19CS406-EX-1/assets/118343296/d1fc6639-da97-4d29-8fa6-c22a967b2068)
 
-# RESULT: 
+## RESULT: 
 Thus, the program to implement socket programming date and time display from client to
 server using TCP Sockets was successfully executed.
 
