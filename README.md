@@ -61,14 +61,11 @@ s.send("acknowledgement recived from the server".encode())
 
 # OUTPUT:
 # CLIENT OUTPUT:
-
-![Screenshot (93)](https://github.com/ArpanBardhan/19CS406-EX-1/assets/119405037/aa40fdfc-71a7-4406-8cc2-1e441ea1601d)
+![1a](https://github.com/JoshuaSamuel7/19CS406-EX-1/assets/118343296/9b7c7180-d7be-4542-bcc4-2aebcc8cd199)
 
 # SERVER OUTPUT:
 
-![Screenshot (94)](https://github.com/ArpanBardhan/19CS406-EX-1/assets/119405037/2dedea7d-997d-477b-bcb5-c6412652af04)
-
-
+![1b](https://github.com/JoshuaSamuel7/19CS406-EX-1/assets/118343296/d1fc6639-da97-4d29-8fa6-c22a967b2068)
 
 # RESULT: 
 Thus, the program to implement socket programming date and time display from client to
