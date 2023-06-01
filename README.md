@@ -1,6 +1,6 @@
 # 19CS406-EX-1 STUDY OF SOCKET PROGRAMMING WITH CLIENT-SERVER MODEL
 
-## DATE :06\03\2023
+## DATE :08\03\2023
 
 ## AIM : 
 To implement socket programming date and time display from client to
@@ -35,7 +35,7 @@ Client:
 # PROGRAM :
 
 # CLIENT:
-```
+```PYTHON 3
 import socket
 s=socket.socket()
 s.bind(('localhost',8000))
@@ -50,7 +50,7 @@ while True:
  c.send("Not Found".encode()) 
 ```
 ## SERVER:
-```
+```PYTHON 3
 import socket
 s=socket.socket()
 s.connect(('localhost',8000))
